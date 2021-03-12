@@ -1,70 +1,7 @@
 import React, { Component } from 'react'
-import styled from 'styled-components';
-import { FlexBox } from '../reusuable/styles';
+import { FlexBox, IconBox, IntroContainer } from '../reusuable/styles';
 import beard from '../../img/beard.jpeg';
 import { Icon } from 'semantic-ui-react';
-
-const IntroContainer = styled.div`
-    position: relative;
-    margin: 0 auto;
-    margin-top: 40px;
-    width: 620px;
-    height: 420px;
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
-    .me {
-        width: 90%;
-        height: 250px;
-        margin: 0 auto;
-    }
-    .job {
-        color: #aaa;
-        font-size: 18px;
-        letter-spacing: 1.5px;
-    }
-    .myName {
-        font-size: 24px;
-        font-weight: bold;
-        margin-top: 10px;
-        border-bottom: 1px solid black;
-        padding-bottom: 10px;
-        width: 90%;
-    }
-    .label {
-        font-weight: bold;
-        text-align: right;
-    }
-`;
-
-const IconBox = styled.div`
-    position: absolute;
-    bottom: 0;
-    height: 70px;
-    background-color: #f5f5dc ;
-    width: 100%;
-    padding: 20px 0;
-    .myIcon {
-        cursor: pointer;
-        transition: 0.5s;
-    }
-    .linkedin: hover {
-        color: #2464AD !important;
-    }
-    .github: hover {
-        color: #807575 !important;
-        height: 50px;
-    }
-    .google: hover {
-        color: #AD2F20 !important;
-    }
-    .facebook: hover {
-        color: #4064AC !important;
-    }
-    .instagram: hover {
-        color: #FF0000 !important;
-    }
-`;
-
-
 
 class intro extends Component {
     render() {
@@ -92,7 +29,7 @@ class intro extends Component {
                                     BCIT
                                 </div>
                             </FlexBox>
-                            <FlexBox style={{ marginTop: "10px" }}>
+                            <FlexBox style={{ marginTop: "30px" }}>
                                 <div className="flex-2 label">
                                     Phone
                                 </div>
@@ -101,7 +38,7 @@ class intro extends Component {
                                     604-805-2526
                                 </div>
                             </FlexBox>
-                            <FlexBox style={{ marginTop: "10px" }}>
+                            <FlexBox style={{ marginTop: "30px" }}>
                                 <div className="flex-2 label">
                                     Email
                                 </div>
@@ -110,7 +47,7 @@ class intro extends Component {
                                     kdkim7676@gmail.com
                                 </div>
                             </FlexBox>
-                            <FlexBox style={{ marginTop: "10px" }}>
+                            <FlexBox style={{ marginTop: "30px" }}>
                                 <div className="flex-2 label">
                                     Current Job
                                 </div>
@@ -119,7 +56,7 @@ class intro extends Component {
                                     QA Analyst
                                 </div>
                             </FlexBox>
-                            <FlexBox style={{ marginTop: "10px" }}>
+                            <FlexBox style={{ marginTop: "30px" }}>
                                 <div className="flex-2 label">
                                     Label
                                 </div>
@@ -129,6 +66,16 @@ class intro extends Component {
                                 </div>
                             </FlexBox>
                         </div>
+                    </FlexBox>
+                    <FlexBox style={{ marginTop: "30px"}}>
+                        <div className="flex-3"></div>
+                        <div className="flex-2 bold">What I do</div>
+                        <div className="flex-6">I am currently working in EA Office to test FIFA Ultimate Game mode</div>
+                    </FlexBox>
+                    <FlexBox style={{ marginTop: "50px"}}>
+                        <div className="flex-3"></div>
+                        <div className="flex-2 bold">What I want to do</div>
+                        <div className="flex-6">hi</div>
                     </FlexBox>
                     <IconBox>
                         <FlexBox>

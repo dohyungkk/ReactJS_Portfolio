@@ -2,13 +2,13 @@ import React, { Component } from 'react'
 import { FlexBox, IconBox, IntroContainer } from '../reusuable/styles';
 import { Icon } from 'semantic-ui-react';
 
-class reactJS extends Component {
+class node extends Component {
     render() {
         return (
             <div>
                 <IntroContainer>
                     <FlexBox>
-                        react
+                        nnn
                     </FlexBox>
                     <IconBox>
                         <FlexBox>
@@ -27,4 +27,4 @@ class reactJS extends Component {
     }
 }
 
-export default reactJS;
+export default node

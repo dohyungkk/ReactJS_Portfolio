@@ -2,13 +2,13 @@ import React, { Component } from 'react'
 import { FlexBox, IconBox, IntroContainer } from '../reusuable/styles';
 import { Icon } from 'semantic-ui-react';
 
-class reactJS extends Component {
+class git extends Component {
     render() {
         return (
             <div>
                 <IntroContainer>
                     <FlexBox>
-                        react
+                        ggg
                     </FlexBox>
                     <IconBox>
                         <FlexBox>
@@ -27,4 +27,5 @@ class reactJS extends Component {
     }
 }
 
-export default reactJS;
+
+export default git
