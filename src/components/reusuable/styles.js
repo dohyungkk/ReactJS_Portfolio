@@ -29,6 +29,9 @@ export const FlexBox = styled.div`
     .flex-9 {
         flex:9;
     };
+    .height {
+        height: 300px;
+    }
 `;
 
 export const IntroContainer = styled.div`
@@ -37,7 +40,7 @@ export const IntroContainer = styled.div`
     margin-top: 200px;
     width: 800px;
     height: 700px;
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 3px 3px 18px rgba(0, 0, 0, 0.3);
     .me {
         width: 100%;
         height: 300px;
@@ -62,6 +65,29 @@ export const IntroContainer = styled.div`
     }
     .bold {
         font-weight: bold;
+    }
+    .react {
+        width: 80%;
+        height: 170px;
+        margin: 0 auto;
+        margin-left: 30px;
+    }
+    .react2 {
+        width: 100%;
+        height: 130px;
+        margin: 0 auto;
+    }
+    .node {
+        width: 80%;
+        height: 170px;
+        margin: 0 auto;
+        margin-left: 50px;
+    }
+    .python {
+        width: 80%;
+        height: 170px;
+        margin: 0 auto;
+        margin-left: 30px;
     }
 `;
 

@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { FlexBox, IconBox, IntroContainer } from '../reusuable/styles';
 import beard from '../../img/beard.jpeg';
-import { Icon } from 'semantic-ui-react';
+import Icons from '../reusuable/icons';
 
 class intro extends Component {
     render() {
@@ -77,15 +77,14 @@ class intro extends Component {
                         <div className="flex-2 bold">What I want to do</div>
                         <div className="flex-6">hi</div>
                     </FlexBox>
+                    <FlexBox style={{ marginTop: "50px"}}>
+                        <div className="flex-3"></div>
+                        <div className="flex-2 bold">What I can to do</div>
+                        <div className="flex-6">bye</div>
+                    </FlexBox>
                     <IconBox>
                         <FlexBox>
-                            <div className="flex-1"></div>
-                            <div className="flex-1"><a href="www.github.com/dohyungkk"><Icon className="myIcon linkedin" name="linkedin" size="big" /></a></div>
-                            <div className="flex-1"><a href="www.github.com/dohyungkk"><Icon className="myIcon github" name="github" size="big" /></a></div>
-                            <div className="flex-1"><a href="www.github.com/dohyungkk"><Icon className="myIcon google" name="google plus" size="big" /></a></div>
-                            <div className="flex-1"><a href="www.github.com/dohyungkk"><Icon className="myIcon facebook" name="facebook" size="big" /></a></div>
-                            <div className="flex-1"><a href="www.github.com/dohyungkk"><Icon className="myIcon instagram" name="instagram" size="big" /></a></div>
-                            <div className="flex-1"></div>
+                            <Icons />
                         </FlexBox>
                     </IconBox>
                 </IntroContainer>
