@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const FlexBox = styled.div`
     display: flex;
+    justify-content: space-between;
     .flex-1 {
         flex:1;
     };
@@ -31,6 +32,9 @@ export const FlexBox = styled.div`
     };
     .height {
         height: 300px;
+    }
+    .left {
+        margin-left: 125px;
     }
 `;
 
@@ -62,6 +66,22 @@ export const IntroContainer = styled.div`
     .label {
         font-weight: bold;
         text-align: right;
+        vertical-align: middle;
+    }
+    .label2 {
+        font-weight: bold;
+        text-align: center;
+        vertical-align: middle;
+        margin-top: 40px
+    }
+    .label3 {
+        font-weight: bold;
+        text-align: center;
+        vertical-align: middle;
+    }
+    .padRight {
+        padding-right: 20px;
+        vertical-align: middle;
     }
     .bold {
         font-weight: bold;
@@ -80,6 +100,11 @@ export const IntroContainer = styled.div`
     .node {
         width: 80%;
         height: 170px;
+        margin: 0 auto;
+        margin-left: 50px;
+    }
+    .node2 {
+        width: 80%;
         margin: 0 auto;
         margin-left: 50px;
     }

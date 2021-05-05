@@ -70,7 +70,7 @@ class intro extends Component {
                     <FlexBox style={{ marginTop: "30px"}}>
                         <div className="flex-3"></div>
                         <div className="flex-2 bold">What I do</div>
-                        <div className="flex-6">I am currently working in EA Office to test FIFA Ultimate Game mode</div>
+                        <div className="flex-6">I am currently working in EA Office to test FIFA Ultimate Game mode <br/>as a Team Lead for Systems & Server QA</div>
                     </FlexBox>
                     <FlexBox style={{ marginTop: "50px"}}>
                         <div className="flex-3"></div>
