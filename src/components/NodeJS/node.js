@@ -1,14 +1,15 @@
 import React, { Component } from 'react'
 import { FlexBox, IconBox, IntroContainer } from '../reusuable/styles';
 import Icons from '../reusuable/icons';
-import nodeImg from '../../img/node.png';
+import Carousel from "../gallery/Carousel2"
 
 class node extends Component {
     render() {
         return (
             <div>
                 <IntroContainer>
-                    <FlexBox style={{ height: "150px" }}>
+                    <Carousel />
+                    {/* <FlexBox style={{ height: "150px" }}>
                         <div className="flex-4">
                             <br />
                             <img alt="myself" className="node2" src={nodeImg} />
@@ -99,7 +100,7 @@ class node extends Component {
                                 </div>
                             </FlexBox>
                         </div>
-                    </FlexBox>
+                    </FlexBox> */}
                     <IconBox>
                         <FlexBox>
                             <Icons />

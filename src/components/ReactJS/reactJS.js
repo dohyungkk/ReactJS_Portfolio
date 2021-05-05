@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import { FlexBox, IconBox, IntroContainer } from '../reusuable/styles';
 import Icons from '../reusuable/icons';
 import Carousel from "../gallery/Carousel"
-// import reactImg from '../../img/react.png';
 
 class reactJS extends Component {
     render() {
