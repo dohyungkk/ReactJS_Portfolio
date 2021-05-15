@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { FlexBox, IconBox, IntroContainer } from '../reusuable/styles';
-import beard from '../../img/beard.jpeg';
+import me from '../../img/headshot.png';
 import Icons from '../reusuable/icons';
 
 class intro extends Component {
@@ -10,7 +10,7 @@ class intro extends Component {
                 <IntroContainer>
                     <FlexBox>
                         <div className="flex-4" style={{ padding: "25px" }}>
-                            <img alt="myself" className="me" src={beard} />
+                            <img alt="myself" className="me" src={me} />
                         </div>
                         <div className="flex-6" style={{ paddingTop: "30px" }}>
                             <div className="job">
@@ -72,15 +72,15 @@ class intro extends Component {
                         <div className="flex-2 bold">What I do</div>
                         <div className="flex-6">I am currently working in EA Office to test FIFA Ultimate Game mode <br/>as a Team Lead for Systems & Server QA</div>
                     </FlexBox>
-                    <FlexBox style={{ marginTop: "50px"}}>
+                    <FlexBox style={{ marginTop: "30px"}}>
                         <div className="flex-3"></div>
                         <div className="flex-2 bold">What I want to do</div>
-                        <div className="flex-6">hi</div>
+                        <div className="flex-6">I am persueing my goal of becoming a developer. I am learning how QA and developers work accordingly in my current job. I am constantly studying and improving my portfolio in order to reach my goal.</div>
                     </FlexBox>
-                    <FlexBox style={{ marginTop: "50px"}}>
+                    <FlexBox style={{ marginTop: "30px"}}>
                         <div className="flex-3"></div>
                         <div className="flex-2 bold">What I can to do</div>
-                        <div className="flex-6">bye</div>
+                        <div className="flex-6">I am mainly focusing on ReactJS and NodeJS. Since learning coding in BCIT, Javascript interested me the most. I also have working knowledge of other languages such as Python and SQL.</div>
                     </FlexBox>
                     <IconBox>
                         <FlexBox>

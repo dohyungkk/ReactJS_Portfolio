@@ -10,6 +10,35 @@ class git extends Component {
         return (
             <div>
                 <IntroContainer>
+                    <FlexBox>
+                        <div className="flex-5"></div>
+                        <div className="flex-2 bold" style={{ fontSize: "17px", marginTop: "50px"}}>Links to my work</div>
+                        <div className="flex-5"></div>
+                    </FlexBox>
+                    <FlexBox style={{ marginTop: "30px"}}>
+                        <div className="flex-2"></div>
+                        <div className="flex-4"></div>
+                        <div className="flex-6 bold"><a href="https://myavatarfriend2.herokuapp.com/">My Avatar Friend</a></div>
+                        <div className="flex-2"></div>
+                    </FlexBox>
+                    <FlexBox style={{ marginTop: "30px"}}>
+                        <div className="flex-2"></div>
+                        <div className="flex-4"></div>
+                        <div className="flex-6 bold"><a onClick={() => window.open('https://dohyungkk-chatapp.netlify.app/')}>ReactJS Chat App</a></div>
+                        <div className="flex-2"></div>
+                    </FlexBox>
+                    <FlexBox style={{ marginTop: "30px"}}>
+                        <div className="flex-2"></div>
+                        <div className="flex-4"></div>
+                        <div className="flex-6 bold"><a onClick={() => window.open('https://dohyungkk-chatapp.netlify.app/')}>ReactJS Chat App</a></div>
+                        <div className="flex-2"></div>
+                    </FlexBox>
+                    <FlexBox style={{ marginTop: "30px"}}>
+                        <div className="flex-2"></div>
+                        <div className="flex-4"></div>
+                        <div className="flex-6 bold"><a onClick={() => window.open('https://dohyungkk-chatapp.netlify.app/')}>ReactJS Chat App</a></div>
+                        <div className="flex-2"></div>
+                    </FlexBox>
                     {/* <FlexBox style={{ height: "200px" }}>
                         <div className="flex-4">
                             <br />
