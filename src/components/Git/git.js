@@ -1,9 +1,6 @@
 import React, { Component } from 'react'
 import { FlexBox, IconBox, IntroContainer } from '../reusuable/styles';
 import Icons from '../reusuable/icons';
-// import reactImg from '../../img/react.png';
-// import nodeImg from '../../img/node.png';
-// import pythonImg from '../../img/etc.png';
 
 class git extends Component {
     render() {

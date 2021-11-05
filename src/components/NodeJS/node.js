@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { FlexBox, IconBox, IntroContainer } from '../reusuable/styles';
-import Icons from '../reusuable/icons';
 import Carousel from "../gallery/Carousel2"
+import Icons from '../reusuable/icons';
 
 class node extends Component {
     render() {
